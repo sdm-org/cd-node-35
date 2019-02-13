@@ -20,4 +20,6 @@ RUN yarn
 
 ADD . $WORKSPACE
 
+EXPOSE 3006
+
 CMD yarn prod
